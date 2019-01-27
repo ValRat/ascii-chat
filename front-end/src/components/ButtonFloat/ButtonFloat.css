@@ -14,7 +14,7 @@
 }
 
 .ButtonFloat-full {
-  position: absolute;
+  position: fixed;
   border-radius: 45px;
   right: 5vw;
   bottom: 8vh;

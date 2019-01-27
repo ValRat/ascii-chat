@@ -13,7 +13,7 @@
   right: 0;
   top: 80px;
   height: 89.8vh;
-  width: 18vw;
+  width: 16vw;
   border-left: 1px solid rgba(151, 151, 151);
-
+  z-index: 2;
 }
