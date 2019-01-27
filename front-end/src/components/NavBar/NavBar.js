@@ -11,7 +11,13 @@ class NavBar extends Component {
   render() {
     return (
       <div className="NavBar">
-        <img className="iconBar" src={home} />
+        <img
+          className="iconBar"
+          onClick={() => {
+            this.props.onClick("end");
+          }}
+          src={home}
+        />
         <img className="iconBar" src={contact} />
         <img className="iconBar" src={star} />
         <img className="iconBar" src={settings} />

@@ -2,7 +2,8 @@
   position: absolute;
   left: 305px;
   top: 210px;
-  height: 370px;
+  /* height: 370px; */
+  height: 47vh;
   width: 660px;
   overflow: hidden;
   transform: scale(1.7, 1.7);

@@ -51,7 +51,7 @@ class App extends Component {
     const { isSelected, isFullScreen, activeName } = this.state;
     return (
       <div className="App">
-        {!isFullScreen && <NavBar />}
+        {!isFullScreen && <NavBar onClick={this.onClick} />}
         {!isFullScreen && (
           <Header activeName={activeName} isSelected={isSelected} />
         )}
