@@ -50,8 +50,8 @@ class App extends Component {
     return (
       <div className="App">
         <iframe src="http://10.19.130.172:8001" className="iframe" />
-        <Header name={this.state.activeName} />
         <NavBar />
+        <Header name={this.state.activeName} />
         <SidePanel />
         {!this.state.isSelected && (
           <ProfileGroup onClick={this.personSelected} />

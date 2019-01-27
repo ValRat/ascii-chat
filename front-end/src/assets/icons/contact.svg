@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="28px" viewBox="0 0 37 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>contact (1)</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-45.000000, -330.000000)" fill="#000000">
+            <g id="contact-(1)" transform="translate(45.000000, 330.666667)">
+                <path d="M36.1590909,0 L0.840909091,0 C0.375886364,0 0,0.37715625 0,0.84375 L0,26.15625 C0,26.6228438 0.375886364,27 0.840909091,27 L36.1590909,27 C36.6232727,27 37,26.6228438 37,26.15625 L37,0.84375 C37,0.37715625 36.6232727,0 36.1590909,0 Z M35.3181818,23.2714688 L24.901,12.8199375 L23.7119545,14.013 L34.9734091,25.3125 L2.02659091,25.3125 L13.2880455,14.013 L12.099,12.8199375 L1.68181818,23.2714688 L1.68181818,1.6875 L35.3181818,1.6875 L35.3181818,23.2714688 Z" id="Shape" fill-rule="nonzero"></path>
+                <path d="M34.28215,2 L19,16.9874591 L3.71785,2 L2,2 L2,2.67272259 L18.39905,18.7555441 C18.7314,19.0814853 19.2686,19.0814853 19.60095,18.7555441 L36,2.67272259 L36,2 L34.28215,2 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

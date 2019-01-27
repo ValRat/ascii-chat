@@ -1,0 +1,8 @@
+.NavBar {
+  position: relative;
+  margin-top: -400px;
+  margin-left: 0;
+  height: 100%;
+  width: 5%;
+  background-color: red;
+}
