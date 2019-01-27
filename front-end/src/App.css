@@ -31,11 +31,3 @@
     transform: rotate(360deg);
   }
 }
-
-.test-image {
-  position: absolute;
-  left: 5%;
-  top: 80px;
-  height: 630px;
-  width: auto;
-}
