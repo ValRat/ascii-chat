@@ -21,7 +21,24 @@ class App extends Component {
 
   onClick = string => {
     if (string === "end") {
+      // console.log("is selected to false");
       this.setState({ isSelected: false });
+    }
+    if (string === "mute") {
+      // if (this.state.isMuted) {
+      //   console.log("is muted to false");
+      // } else {
+      //   console.log("is muted to true");
+      // }
+      this.setState({ isMuted: this.state.isMuted ? false : true });
+    }
+    if (string === "fullscreen") {
+      // if (this.state.isFullScreen) {
+      //   console.log("full screen to false");
+      // } else {
+      //   console.log("full screen to true");
+      // }
+      this.setState({ isFullScreen: this.state.isFullScreen ? false : true });
     }
   };
   render() {
