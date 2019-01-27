@@ -1,4 +1,4 @@
-![ASKEY](img/askey.jpg)
+![ASKEY](imgs/askey.jpg)
 
 ## Video Calling ASCII Style!
 
