@@ -1,21 +1,20 @@
 .message-list {
     box-sizing: border-box;
     padding: 0 0 0 6px;
-    margin: 0;
     width: 100%;
     height: 89%;
     overflow: scroll;
-    background: white;
+    background-color: white;
     --main-color: #5ea3d0;
     --secondary-color: white;
     --main-text-color: #3e5869;
     --secondary-text-color: #b0c7d6;
     --send-message-form: #F5F5F5;
     overflow-x: hidden;
-    
 }
-.message {
-    margin: 15px 0;
+
+ul {
+    list-style-type:none;
 }
 
 .message div:nth-child(1) {
@@ -32,3 +31,19 @@
     border-radius: 8px;
 }
 
+.leftAlign {
+    float: left;
+    margin: 10px 0;
+    display: block;
+    clear: both;
+    margin-left: 10px;
+    text-align: left;
+}
+.rightAlign {
+    text-align: right;
+    margin-right: 10px !important;
+    clear: both;
+    float: right;
+    margin: 10px 0;
+    display: block;
+}

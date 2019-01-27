@@ -4,7 +4,9 @@
     box-sizing: border-box;
     height: 60px;
     background-color: rgb(241, 241, 241);
+    margin-top: -20px;
 }
+
 
 .send-message-form input {
     width: 100%;

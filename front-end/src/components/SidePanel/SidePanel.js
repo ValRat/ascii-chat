@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "../../App.css";
 import "./SidePanel.css";
 import MessageList from "./Messenger/MessengeList";
-import Title from "./Messenger/Title";
 import SendMessageForm from "./Messenger/SendMessageForm";
 import { ChatManager, TokenProvider } from "@pusher/chatkit-client";
 
@@ -10,16 +9,17 @@ const instanceLocator = "v1:us1:1e3ffb93-6c72-4127-9fe8-357f6a6bd52b";
 
 const testToken =
   "https://us1.pusherplatform.io/services/chatkit_token_provider/v1/1e3ffb93-6c72-4127-9fe8-357f6a6bd52b/token";
-
-const username = "Nicholas";
-
+ 
+ 
 const roomId = "19379139";
+
 
 class SidePanel extends Component {
   constructor() {
     super();
     this.state = {
-      messages: []
+      messages: [],
+      username: "Nicholas"
     };
     this.sendMessage = this.sendMessage.bind(this);
   }
@@ -27,7 +27,7 @@ class SidePanel extends Component {
   componentDidMount() {
     const chatManager = new ChatManager({
       instanceLocator: instanceLocator,
-      userId: username,
+      userId: this.state.username,
       tokenProvider: new TokenProvider({
         url: testToken
       })
@@ -40,13 +40,13 @@ class SidePanel extends Component {
         roomId: roomId,
         hooks: {
           onMessage: message => {
-            console.log(message);
             this.setState({
               messages: [...this.state.messages, message]
             });
           }
         }
       });
+  
     });
   }
 
@@ -57,6 +57,7 @@ class SidePanel extends Component {
     });
   }
 
+
   render() {
     return (
       <div className="SidePanel">
@@ -64,8 +65,11 @@ class SidePanel extends Component {
         <MessageList
           roomId={this.state.roomId}
           messages={this.state.messages}
+          username={this.state.username}
         />
+        
         <SendMessageForm sendMessage={this.sendMessage} />
+
       </div>
     );
   }
