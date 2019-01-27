@@ -51,7 +51,6 @@ class App extends Component {
     const { isSelected, isFullScreen, activeName } = this.state;
     return (
       <div className="App">
-        {/* <iframe src="http://10.19.130.172:8001" className="iframe" /> */}
         {!isFullScreen && <NavBar />}
         {!isFullScreen && (
           <Header activeName={activeName} isSelected={isSelected} />

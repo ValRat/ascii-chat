@@ -1,16 +1,19 @@
 .test-image-small {
   position: absolute;
-  left: 5%;
-  top: 80px;
-  height: 630px;
-  width: auto;
+  left: 305px;
+  top: 210px;
+  height: 370px;
+  width: 660px;
+  overflow: hidden;
+  transform: scale(1.7, 1.7);
 }
 
 .test-image-full {
   position: fixed;
-  left: 0;
-  top: 0;
-  height: 862px;
-  width: auto;
-  overflow-y: hidden;
+  left: 660px;
+  top: 270px;
+  height: 400px;
+  width: 1000px;
+  overflow: hidden;
+  transform: scale(2.5, 2.5);
 }

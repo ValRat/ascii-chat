@@ -10,6 +10,7 @@
   font-family: Avenir;
   font-weight: bold;
   font-size: 13px;
+  z-index: 15;
 }
 
 .ButtonFloat-full {
@@ -24,6 +25,7 @@
   font-family: Avenir;
   font-weight: bold;
   font-size: 13px;
+  z-index: 15;
 }
 
 .FloatOption {
