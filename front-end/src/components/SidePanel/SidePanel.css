@@ -1,8 +1,19 @@
-.SidePanel {
+/* .SidePanel {
   position: absolute;
   right: 0;
   top: 80px;
   height: 89.8vh;
   width: 22vw;
   background-color: red;
+} */
+
+.SidePanel {
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 80px;
+  height: 89.8vh;
+  width: 18vw;
+  border-left: 1px solid rgba(151, 151, 151);
+
 }
