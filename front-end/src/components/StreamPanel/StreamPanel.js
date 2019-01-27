@@ -7,7 +7,7 @@ class StreamPanel extends Component {
     return (
       <div>
         <div>A face perhaps?</div>
-        <ButtonFloat />
+        <ButtonFloat onClick={this.props.onClick} />
       </div>
     );
   }
