@@ -7,6 +7,7 @@ import Header from "./components/Header/Header";
 import BottomPanel from "./components/BottomPanel/BottomPanel";
 import NavBar from "./components/NavBar/NavBar";
 import SidePanel from "./components/SidePanel/SidePanel";
+import ProfileGroup from './components/ProfileGroup/ProfileGroup';
 
 class App extends Component {
   constructor(props) {
@@ -19,6 +20,10 @@ class App extends Component {
     };
   }
 
+  personSelected = (name) => {
+    this.setState({ activeName: name, isSelected: true });
+
+  }
   onClick = string => {
     if (string === "end") {
       this.setState({ isSelected: false });
@@ -30,6 +35,7 @@ class App extends Component {
         <Header />
         <NavBar />
         <SidePanel />
+        <ProfileGroup onClick={this.personSelected}/>
         <StreamPanel onClick={this.onClick} />
         <BottomPanel />
       </div>
