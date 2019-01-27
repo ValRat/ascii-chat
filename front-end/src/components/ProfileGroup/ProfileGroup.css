@@ -1,0 +1,17 @@
+.groupSpacing {
+    position: absolute;
+    display: flex;
+    left: 4.1%;
+    clear: both;
+}
+
+.firstRow {
+    position: absolute;
+    top: 80px;
+    display: flex;
+}
+.secondRow {
+    top: 380px;
+    position: absolute;
+    display: flex;
+}

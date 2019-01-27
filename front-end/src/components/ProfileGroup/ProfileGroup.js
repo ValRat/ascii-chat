@@ -1,16 +1,18 @@
 import React, { Component } from "react";
 import "../../App.css";
 import Profile from "./Profile/Profile";
+import '../ProfileGroup/ProfileGroup.css'
 
 class ProfileGroup extends Component {
   state = {
-    names: ["John Doe", "Dane Kane", "Jeff Heff", "Jane Vein"]
+    names: ["John Doe", "Dane Kane", "Jeff Heff", "Jane Vein", "Andy Hona", "Steve Nate", "Bill Cobs", "Keith Hou"]
   };
 
   render() {
     const { names } = this.state;
     return (
-      <div>
+      <div className="groupSpacing">
+        <div className="firstRow">
         <Profile
           onClick={() => {
             this.props.onClick(names[0]);
@@ -35,6 +37,34 @@ class ProfileGroup extends Component {
           }}
           name={this.state.names[3]}
         />
+        </div>
+        
+        <div className="secondRow">
+        <Profile
+          onClick={() => {
+            this.props.onClick(names[4]);
+          }}
+          name={this.state.names[4]}
+        />
+        <Profile
+          onClick={() => {
+            this.props.onClick(names[5]);
+          }}
+          name={this.state.names[5]}
+        />
+        <Profile
+          onClick={() => {
+            this.props.onClick(names[6]);
+          }}
+          name={this.state.names[6]}
+        />
+        <Profile
+          onClick={() => {
+            this.props.onClick(names[7]);
+          }}
+          name={this.state.names[7]}
+        />
+        </div>
       </div>
     );
   }
