@@ -11,8 +11,12 @@ Made with:
 Dragons live in the codebase ahead, beware travellers.
 
 Made by:
+
 [Ali Arshad](https://github.com/a-arshad)
+
 [James Park](https://github.com/JSpark22)
+
 [Valerian Ratu](https://github.com/ValRat)
+
 [Nicholas Wong](https://github.com/kozr)
 
