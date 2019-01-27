@@ -1,0 +1,8 @@
+.SidePanel {
+  position: absolute;
+  right: 0;
+  top: 80px;
+  height: 89.8vh;
+  width: 22vw;
+  background-color: red;
+}

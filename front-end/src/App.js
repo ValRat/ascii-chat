@@ -9,6 +9,7 @@ import NavBar from "./components/NavBar/NavBar";
 import SidePanel from "./components/SidePanel/SidePanel";
 import ProfileGroup from "./components/ProfileGroup/ProfileGroup";
 import "../src/constants/styles.css";
+import drinking from "./assets/drinking.png";
 
 class App extends Component {
   constructor(props) {
@@ -49,7 +50,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <iframe src="http://10.19.130.172:8001" className="iframe" />
+        {/* <iframe src="http://10.19.130.172:8001" className="iframe" /> */}
+        <img className="test-image" src={drinking} />
         <NavBar />
         <Header name={this.state.activeName} />
         <SidePanel />

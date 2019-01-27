@@ -1,8 +1,17 @@
 .NavBar {
   position: relative;
-  margin-top: -400px;
-  margin-left: 0;
-  height: 100%;
-  width: 5%;
-  background-color: red;
+  background-color: white;
+  height: 100vh;
+  width: 4.9%;
+  float: left;
+  border-right: 1px solid rgba(151, 151, 151);
+  cursor: pointer;
+}
+
+.iconBar {
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: auto;
+  width: 25px;
 }

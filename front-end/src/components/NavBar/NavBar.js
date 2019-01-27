@@ -11,10 +11,10 @@ class NavBar extends Component {
   render() {
     return (
       <div className="NavBar">
-        <img src={home} />
-        {/* <img src={settings} />
-        <img src={contact} />
-        <img src={star} /> */}
+        <img className="iconBar" src={home} />
+        <img className="iconBar" src={contact} />
+        <img className="iconBar" src={star} />
+        <img className="iconBar" src={settings} />
       </div>
     );
   }
