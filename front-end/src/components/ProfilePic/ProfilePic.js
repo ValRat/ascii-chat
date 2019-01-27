@@ -1,17 +1,11 @@
-import React, { Component } from 'react';
-import '../App.css';
-import './ProfilePic.css'
-
-
+import React, { Component } from "react";
+import "../../App.css";
+import "./ProfilePic.css";
 
 class Profilepic extends Component {
-    render() {
-        return (
-        <div className="profilepic">
-            JD
-        </div>
-        )
-    }
+  render() {
+    return <div className="profilepic">JD</div>;
+  }
 }
 
 export default Profilepic;
