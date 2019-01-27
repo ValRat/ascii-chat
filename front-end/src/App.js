@@ -51,7 +51,7 @@ class App extends Component {
     return (
       <div className="App">
         {/* <iframe src="http://10.19.130.172:8001" className="iframe" /> */}
-        <img className="test-image" src={drinking} />
+        {/* <img className="test-image" src={drinking} /> */}
         <NavBar />
         <Header name={this.state.activeName} />
         <SidePanel />
