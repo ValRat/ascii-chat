@@ -7,10 +7,15 @@ class Profile extends Component {
     const { name } = this.props;
     const colorArray = [
       "red",
+      "red",
       "blue",
+      "blue",
+      "green",
       "green",
       "orange",
       "purple",
+      "purple",
+      "grey",
       "grey",
       "teal",
       "brown",

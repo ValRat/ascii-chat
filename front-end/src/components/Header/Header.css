@@ -30,6 +30,14 @@
   font-size: 23px;
 }
 
+.logo {
+  position: absolute;
+  height: 30px;
+  width: auto;
+  top: 3vh;
+  right: 1vw;
+}
+
 @font-face {
   font-family: Avenir;
   src: "../assets/avenir-lt-std-cufonts-webfont";

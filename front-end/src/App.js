@@ -53,7 +53,9 @@ class App extends Component {
       <div className="App">
         {/* <iframe src="http://10.19.130.172:8001" className="iframe" /> */}
         {!isFullScreen && <NavBar />}
-        {!isFullScreen && <Header name={activeName} />}
+        {!isFullScreen && (
+          <Header activeName={activeName} isSelected={isSelected} />
+        )}
         {!isFullScreen && <SidePanel />}
         {!isSelected && !isFullScreen && (
           <ProfileGroup onClick={this.personSelected} />

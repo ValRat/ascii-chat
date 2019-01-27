@@ -7,10 +7,10 @@
 }
 
 .test-image-full {
-  position: absolute;
-  left: 4%;
-  right: auto%;
+  position: fixed;
+  left: 0;
   top: 0;
-  height: 789px;
+  height: 862px;
   width: auto;
+  overflow-y: hidden;
 }
