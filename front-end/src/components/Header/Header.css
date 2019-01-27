@@ -1,0 +1,10 @@
+.header {
+    border: 2px solid gainsboro;
+    display:inline;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    font-size: 45px;
+    font-weight: 700;
+  }
+
