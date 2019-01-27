@@ -28,7 +28,7 @@ class App extends Component {
   onClick = string => {
     if (string === "end") {
       // console.log("is selected to false");
-      this.setState({ isSelected: false, activeName: "" });
+      this.setState({ isSelected: false, activeName: "", isFullScreen: false });
     }
     if (string === "mute") {
       // if (this.state.isMuted) {
@@ -48,18 +48,20 @@ class App extends Component {
     }
   };
   render() {
+    const { isSelected, isFullScreen, activeName } = this.state;
     return (
       <div className="App">
         {/* <iframe src="http://10.19.130.172:8001" className="iframe" /> */}
-        <NavBar />
-        <Header name={this.state.activeName} />
-        <SidePanel />
-        {!this.state.isSelected && (
+        {!isFullScreen && <NavBar />}
+        {!isFullScreen && <Header name={activeName} />}
+        {!isFullScreen && <SidePanel />}
+        {!isSelected && !isFullScreen && (
           <ProfileGroup onClick={this.personSelected} />
         )}
-        <StreamPanel onClick={this.onClick} />
-        {/* {this.state.isSelected && <StreamPanel onClick={this.onClick} />} */}
-        {this.state.isSelected && <BottomPanel />}
+        {isSelected && (
+          <StreamPanel onClick={this.onClick} isFullScreen={isFullScreen} />
+        )}
+        {isSelected && !isFullScreen && <BottomPanel />}
       </div>
     );
   }

@@ -8,10 +8,14 @@ import "./StreamPanel.css";
 
 class StreamPanel extends Component {
   render() {
+    const { isFullScreen } = this.props;
     return (
       <div>
-        <img className="test-image" src={drinking} />
-        <ButtonFloat onClick={this.props.onClick} />
+        <img
+          className={isFullScreen ? "test-image-full" : "test-image-small"}
+          src={drinking}
+        />
+        <ButtonFloat isFullScreen={isFullScreen} onClick={this.props.onClick} />
         {/* <iframe src="http://10.19.130.172:8001" className="iframe" /> */}
       </div>
     );

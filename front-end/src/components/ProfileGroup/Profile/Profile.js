@@ -3,13 +3,24 @@ import "../../../App.css";
 import "./Profile.css";
 
 class Profile extends Component {
-    
   render() {
+    const { name } = this.props;
+    const colorArray = [
+      "red",
+      "blue",
+      "green",
+      "orange",
+      "purple",
+      "grey",
+      "teal",
+      "brown",
+      "dark-blue"
+    ];
+    let color = colorArray[Math.floor(Math.random() * colorArray.length)];
     return (
-        <div className="rectangle"  onClick={this.props.onClick}>
-            <div className="profileComp">
-                    {this.props.name}
-            </div>
+      <div className="rectangle" id={color} onClick={this.props.onClick}>
+        <div className="initial">{name.charAt(0)}</div>
+        <div className="profileComp">{name}</div>
       </div>
     );
   }

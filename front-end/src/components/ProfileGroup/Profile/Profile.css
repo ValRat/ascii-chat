@@ -1,21 +1,63 @@
 .profileComp {
-    text-align: center;
-    top: 200px;
-    overflow: auto; 
-    height: 150px;
-    margin-top: 190px;
-    display: flex;
+  text-align: center;
+  top: 200px;
+  overflow: auto;
+  height: 150px;
+  margin-top: 190px;
+  display: flex;
 }
 
-
-
 .rectangle {
-    height: 125px;
-    width: 80px;
-    background-color: rgba(85, 85, 85, 0.5);
-    text-align: center;
-    margin-left: 60px;
-    margin-top: 50px;
-    padding: 48px;
-    display: flex;
-  }
+  height: 125px;
+  width: 80px;
+  background-color: grey;
+  text-align: center;
+  margin-left: 60px;
+  margin-top: 50px;
+  padding: 48px;
+  display: flex;
+}
+
+#red {
+  background-color: rgba(111, 0, 14, 1);
+}
+
+#blue {
+  background-color: rgba(74, 144, 226, 1);
+}
+
+#green {
+  background-color: rgba(103, 166, 34, 1);
+}
+
+#orange {
+  background-color: rgba(245, 166, 35, 1);
+}
+
+#purple {
+  background-color: rgba(53, 0, 100, 1);
+}
+
+#grey {
+  background-color: rgba(63, 63, 63, 1);
+}
+
+#teal {
+  background-color: rgba(0, 97, 119, 1);
+}
+
+#brown {
+  background-color: rgba(139, 87, 42);
+}
+
+#dark-blue {
+  background-color: rgba(0, 51, 111, 1);
+}
+.initial {
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  padding-left: 30px;
+  font-size: 130px;
+  color: white;
+}

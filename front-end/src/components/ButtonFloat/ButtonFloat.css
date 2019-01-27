@@ -1,8 +1,22 @@
-.ButtonFloat {
+.ButtonFloat-small {
   position: absolute;
   border-radius: 45px;
   left: 60vw;
   top: 78vh;
+  height: 60px;
+  width: 230px;
+  background-color: white;
+  display: flex;
+  font-family: Avenir;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.ButtonFloat-full {
+  position: absolute;
+  border-radius: 45px;
+  right: 10vw;
+  bottom: 8vh;
   height: 60px;
   width: 230px;
   background-color: white;

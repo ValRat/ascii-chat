@@ -1,7 +1,16 @@
-.test-image {
+.test-image-small {
   position: absolute;
   left: 5%;
   top: 80px;
   height: 630px;
+  width: auto;
+}
+
+.test-image-full {
+  position: absolute;
+  left: 4%;
+  right: auto%;
+  top: 0;
+  height: 789px;
   width: auto;
 }

@@ -9,8 +9,9 @@ class ButtonFloat extends Component {
     console.log(string);
   };
   render() {
+    const { isFullScreen } = this.props;
     return (
-      <div className="ButtonFloat">
+      <div className={isFullScreen ? "ButtonFloat-full" : "ButtonFloat-small"}>
         <div id="end" className="FloatOption">
           <Button
             buttonLabel="END"
@@ -30,7 +31,7 @@ class ButtonFloat extends Component {
         </div>
         <div id="fullscreen" className="FloatOption">
           <Button
-            buttonLabel="FULL SCREEN"
+            buttonLabel={isFullScreen ? "EXIT SCREEN" : "FULL SCREEN"}
             onClick={() => {
               this.props.onClick("fullscreen");
             }}
