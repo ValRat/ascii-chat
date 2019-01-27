@@ -1,16 +1,27 @@
 import React, { Component } from 'react';
-import './../App.css';
+import '../../App.css';
 import './NavBar.css';
 
 
-class Header extends Component {
+class NavBar extends Component {
     render() {
         return (
         <div>
-
+            <div>
+            Home
+            </div>
+            <div>
+            Contacts
+            </div>
+            <div>
+                Favorites
+            </div>
+            <div>
+                Settings
+            </div>
         </div>
         )
     }
 }
 
-export default Header;
+export default NavBar;
