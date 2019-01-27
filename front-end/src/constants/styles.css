@@ -1,0 +1,6 @@
+.iframe {
+  height: 500px;
+  width: 1000px;
+  zoom: 0.5;
+  /* transform: scale(3, 3); */
+}

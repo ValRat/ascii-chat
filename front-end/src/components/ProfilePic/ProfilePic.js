@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import "../../App.css";
 import "./ProfilePic.css";
+import logo from "../../assets/initials_circle.svg";
 
 class Profilepic extends Component {
   render() {
-    return <div className="profilepic">JD</div>;
+    return <img className="circle" src={logo} />;
   }
 }
 

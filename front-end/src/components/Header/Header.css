@@ -1,4 +1,4 @@
-.header {
+/* .header {
     border: 2px solid gainsboro;
     display:inline;
     text-align: center;
@@ -7,4 +7,30 @@
     font-size: 45px;
     font-weight: 700;
   }
+ */
 
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 80px;
+  width: 95%;
+  background-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(151, 151, 151);
+}
+
+.name {
+  position: absolute;
+  top: 25px;
+  left: 65px;
+  font-family: "Avenir";
+  font-weight: bolder;
+  font-size: 23px;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: "../assets/avenir-lt-std-cufonts-webfont";
+}

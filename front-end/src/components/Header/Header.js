@@ -8,7 +8,7 @@ class Header extends Component {
     return (
       <div className="header">
         <ProfilePic />
-        John Doe
+        <div className="name"> {this.props.name}</div>
       </div>
     );
   }

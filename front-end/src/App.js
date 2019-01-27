@@ -8,6 +8,7 @@ import BottomPanel from "./components/BottomPanel/BottomPanel";
 import NavBar from "./components/NavBar/NavBar";
 import SidePanel from "./components/SidePanel/SidePanel";
 import ProfileGroup from "./components/ProfileGroup/ProfileGroup";
+import "../src/constants/styles.css";
 
 class App extends Component {
   constructor(props) {
@@ -26,7 +27,7 @@ class App extends Component {
   onClick = string => {
     if (string === "end") {
       // console.log("is selected to false");
-      this.setState({ isSelected: false });
+      this.setState({ isSelected: false, activeName: "" });
     }
     if (string === "mute") {
       // if (this.state.isMuted) {
@@ -48,7 +49,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <iframe src="http://10.19.130.172:8001" className="iframe" />
+        <Header name={this.state.activeName} />
         <NavBar />
         <SidePanel />
         {!this.state.isSelected && (

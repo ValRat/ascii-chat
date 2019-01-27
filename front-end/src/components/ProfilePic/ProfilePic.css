@@ -1,12 +1,20 @@
-
 .profilepic {
-    background-color: rgba(0, 58, 247, 0.568);
-    background: fill;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    color: white;
-    font-size: 34px;
-    font-weight: 700;
-    
-  }
+  background-color: rgba(0, 58, 247, 0.568);
+  background: fill;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: center;
+}
+
+.circle {
+  position: absolute;
+  left: 0;
+  margin-top: 15px;
+  height: 50px;
+  width: 50px;
+}
