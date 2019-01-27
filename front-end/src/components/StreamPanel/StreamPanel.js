@@ -17,7 +17,7 @@ class StreamPanel extends Component {
         /> */}
         <ButtonFloat isFullScreen={isFullScreen} onClick={this.props.onClick} />
         <iframe
-          src="http://10.19.130.172:8001"
+          src="http://10.19.130.172:8002"
           className={isFullScreen ? "test-image-full" : "test-image-small"}
           scrolling="no"
         />

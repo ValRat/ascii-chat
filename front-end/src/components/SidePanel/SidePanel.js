@@ -9,8 +9,8 @@ const instanceLocator = "v1:us1:1e3ffb93-6c72-4127-9fe8-357f6a6bd52b";
 
 const testToken =
   "https://us1.pusherplatform.io/services/chatkit_token_provider/v1/1e3ffb93-6c72-4127-9fe8-357f6a6bd52b/token";
- 
- 
+
+
 const roomId = "19379139";
 
 
@@ -19,7 +19,7 @@ class SidePanel extends Component {
     super();
     this.state = {
       messages: [],
-      username: "Nicholas"
+      username: "Jeff"
     };
     this.sendMessage = this.sendMessage.bind(this);
   }

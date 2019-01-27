@@ -1,10 +1,10 @@
 .test-image-small {
   position: absolute;
-  left: 305px;
-  top: 210px;
+  left: 330px;
+  top: 230px;
   /* height: 370px; */
-  height: 47vh;
-  width: 660px;
+  height: 40vh;
+  width: 640px;
   overflow: hidden;
   transform: scale(1.7, 1.7);
 }
