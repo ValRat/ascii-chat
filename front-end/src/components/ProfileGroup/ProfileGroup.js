@@ -6,7 +6,7 @@ import "../ProfileGroup/ProfileGroup.css";
 class ProfileGroup extends Component {
   state = {
     names: [
-      "John Doe",
+      "Jeff Doe",
       "Zach Shawcross",
       "Yep Heff",
       "Jane Vein",

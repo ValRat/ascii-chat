@@ -16,4 +16,5 @@
   width: 16vw;
   border-left: 1px solid rgba(151, 151, 151);
   z-index: 2;
+  background-color: white;
 }

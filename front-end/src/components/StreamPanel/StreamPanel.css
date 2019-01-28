@@ -1,7 +1,7 @@
 .test-image-small {
   position: absolute;
   left: 305px;
-  top: 210px;
+  top: 215px;
   /* height: 370px; */
   height: 47vh;
   width: 660px;
@@ -18,3 +18,10 @@
   overflow: hidden;
   transform: scale(2.5, 2.5);
 }
+
+
+Ever since the creation of online video sharing, high bandwidth usages have always been a major issue. We wanted to develop a service that allowed for low data usage video sharing, because even now some areas in the world have limited bandwidth making it very difficult to do video calls. This would even have an effect on when we would try and call our families overseas. Video adds a layer of depth that in unattainable by voice calling only.
+
+ASKEY was developed to be a solution to all of these issues. By converting the video to an ascii string before transmission and then displaying the video through ascii, we end up sending a significantly smaller amount of data. However, we managed to maintain a reasonable amount of video quality despite going through this process.
+
+We hope using this new technology we can break the locks the divide the world, one asKEY at a time.
