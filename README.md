@@ -2,6 +2,8 @@
 
 ## Video Calling ASCII Style!
 
+![ascii-vid](imgs/ascii_vid.gif)
+
 Made with:
 - [ffmpeg](https://www.ffmpeg.org/). no. really.
 - [react](https://reactjs.org/)
