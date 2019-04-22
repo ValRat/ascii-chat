@@ -16,7 +16,7 @@ Made by:
 
 [Ali Arshad](https://github.com/a-arshad)
 
-[James Park](https://github.com/JSpark22)
+[James Park](https://github.com/jamesjypark)
 
 [Valerian Ratu](https://github.com/ValRat)
 
