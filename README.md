@@ -12,6 +12,8 @@ Made with:
 
 Dragons live in the codebase ahead, beware travellers.
 
+Read more about it on our [devpost submission!](https://devpost.com/software/ascii-chat-zh6x7m)
+
 Made by:
 
 [Ali Arshad](https://github.com/a-arshad)
